@@ -4,10 +4,12 @@ body{
 }
 
 .navigation{
+    border-radius: 25px;
     background-color: rgb(63, 63, 63);
 }
 
 .navButton{
+    border-radius: 15px;
     display: inline-block;
     color: whitesmoke;
     text-decoration: none;
@@ -22,7 +24,8 @@ body{
 }
 
 .mainBody{
-    background-color: gray;
+    border-radius: 25px;
+    background-color: rgb(184, 183, 183);
     padding: 20px;
 }
 
@@ -33,12 +36,18 @@ body{
 }
 
 .thePoltergeist{
+    border-radius: 20px;
     background-color: gray;
+    padding: 20px;
 }
 .thePoltergeist ul {
     display: table;
     margin: 0 auto;
     text-align: left;
+}
+
+.jolly-lodger{
+    font-family: "Jolly Lodger", system-ui;
 }
 
 .gameContainer{
@@ -48,12 +57,19 @@ body{
     flex-wrap: wrap;
 }
 
+.gameContainer a  {
+    text-decoration: none;
+    color: black;
+}
+
 .gameCard{
+    border-radius: 25px;
+    background-color: rgb(125, 125, 125);
     padding: 30px;
     text-align: center;
 }
 
 .gameCard h3 {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
